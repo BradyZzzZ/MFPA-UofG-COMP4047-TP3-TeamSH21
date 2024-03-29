@@ -1,0 +1,83 @@
+/**
+ * Styling for the application
+ *
+ * Developed by: UofG - SH21 Team
+ * As part of COMPSCI 4047 Team Project (H) course at the University of Glasgow
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  /* @apply !outline outline-1 outline-red; */
+  @apply scroll-smooth;
+}
+
+::-webkit-scrollbar {
+  @apply size-2;
+}
+::-webkit-scrollbar-track-piece {
+  @apply rounded-full bg-[#a7a7a7];
+}
+::-webkit-scrollbar-thumb {
+  @apply rounded-full bg-[#041295] hover:bg-[#3642aa] active:bg-[#6871bf];
+}
+
+@layer components {
+  .btn {
+    @apply animate-none rounded-sm font-medium normal-case focus:outline-blue-300;
+  }
+  .btn-primary {
+    @apply border-0 bg-blue text-textWhite hover:bg-blue-600 active:bg-blue-700 disabled:bg-blue-100;
+  }
+  .btn-secondary {
+    @apply border-0 bg-neutral-500 text-textWhite hover:bg-neutral-600 active:bg-neutral-700 disabled:bg-neutral-300;
+  }
+  .btn-tertiary {
+    @apply border-0 bg-neutral-200 !text-neutral-600 hover:bg-neutral-300 active:bg-neutral-400 disabled:bg-neutral-100 disabled:!text-neutral-300;
+  }
+  .btn-warning {
+    @apply border-0 bg-red-500 text-textWhite hover:bg-red-600 active:bg-red-700 disabled:bg-red-700;
+  }
+  .btn-primary.btn-outline {
+    @apply border-2 border-blue bg-white text-blue hover:!border-blue hover:bg-neutral-200 hover:text-blue active:bg-neutral-300;
+  }
+  .btn-secondary.btn-outline {
+    @apply border-2 border-neutral-500 bg-white text-neutral-600 hover:!border-neutral-500 hover:bg-neutral-200 hover:text-neutral-500 active:bg-neutral-300;
+  }
+  .btn-tertiary.btn-outline {
+    @apply border-2 border-neutral-200 bg-white text-neutral-600 hover:!border-neutral-200 hover:bg-neutral-100 hover:text-neutral-500 active:bg-neutral-200;
+  }
+  .btn-warning.btn-outline {
+    @apply border-2 border-red-500 bg-white text-red-500 hover:!border-red-500 hover:bg-neutral-200 hover:text-red-500 active:bg-neutral-300;
+  }
+}
+
+.ol-zoom {
+  @apply !bottom-20 !left-auto !right-4 !top-auto grid grid-rows-2 !bg-transparent;
+}
+.ol-zoom button {
+  @apply !btn !btn-square !rounded-sm !bg-blue !text-4xl !font-light !normal-case !text-textWhite shadow-md !outline-none hover:!transform-none hover:!bg-blue-600 active:!bg-blue-700;
+}
+.ol-scale-line {
+  @apply !bottom-0 !left-auto !right-[32rem] !top-auto h-5 !rounded-none !rounded-t;
+}
+.ol-mouse-position {
+  @apply !bottom-0 !right-48 !top-auto w-[19rem] rounded-t bg-white/75 px-1 text-center text-sm text-textBlack;
+}
+.ol-full-screen {
+  @apply !bg-transparent;
+}
+.ol-full-screen button {
+  @apply !btn !btn-square !btn-sm !rounded-sm !bg-blue !text-xl !font-light !normal-case !text-textWhite shadow-md !outline-none hover:!scale-100 hover:!transform-none hover:!bg-blue-600 active:!bg-blue-700;
+}
+.ol-rotate {
+  @apply !visible !bottom-48 !right-4 !top-auto !block !bg-transparent !opacity-100;
+}
+.ol-rotate button {
+  @apply !btn !btn-square !rounded-sm !bg-blue !text-3xl !font-light !normal-case !text-textWhite shadow-md !outline-none hover:!transform-none hover:!bg-blue-600 hover:!outline-0 active:!bg-blue-700;
+}
+.ol-compass {
+  @apply !will-change-auto;
+}

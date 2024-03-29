@@ -1,0 +1,497 @@
+- fix: fix bug where map is accessed before init
+- Merge branch 'integrate/db_directories' into 'main'
+- feat: implement finding and displaying intersecting file
+- Merge branch 'main' into integrate/db_directories
+- add getBoundaries() to find intersecting files
+- refactor: update packages
+- Merge branch 'refactor/refactor-file-code' into 'main'
+- refactor: prettify code
+- refactor: remove unused files
+- add runUpdateDatabase()
+- Merge branch 'PythonDatabaseBoundaries' into 'main'
+- Changed update database.py
+- Merge branch 'integrate/db_directories' into 'main'
+- move insertDirectory() from importPreview panel to manageLayer panel instead
+- add try catch when calling window.sqlite.insertDirectory()
+- preload insertDirectory() to electron
+- Merge branch 'bug/8-2-2024' into 'main'
+- add total file count and size to import preview panel
+- Merge branch 'issue/missing-error-header' into 'main'
+- fix: add missing error header
+- Added file size and number of files to FIleSearch output
+- added left,right,top,bottom to boundaries table
+- Added working Create Statements for boundaries and Directories Tables
+- Reverting back to old create as to stop bug
+- Added other create Table
+- removed unnececary files and moved the backend
+- Merge branch 'main' of https://stgit.dcs.gla.ac.uk/team-project-h/2023/sh21/sh21-main merging with my changes
+- update database changes
+- added yml environment file
+- code for updating database
+- Revert "Revert "Merge remote-tracking branch 'refs/remotes/origin/main'""
+- removing prints from Python file
+- Merge branch 'revert-57232f92' into 'main'
+- Revert "Merge remote-tracking branch 'refs/remotes/origin/main'"
+- Merge remote-tracking branch 'refs/remotes/origin/main'
+- Possible fix for proj.db
+- Merge branch 'refactor/refactor-code' into 'main'
+- refactor: refine msg
+- Merge branch 'refactor/refactor-code' into 'main'
+- refactor: change message
+- refactor: refactor code
+- Merge branch 'feature/refine-toast-notification' into 'main'
+- feat: refine toast notification
+- Merge branch 'bug/6-2-2024' into 'main'
+- fix bug coord validation
+- Merge branch 'bug/6-2-2024' into 'main'
+- fix bug double bounding box
+- Merge branch 'issue/fix-wrong-page-navigation' into 'main'
+- fix: fix wrong page navigation
+- Merge branch 'feature/make-download-btn-go-to-result' into 'main'
+- feat: make download btn go to result
+- Merge branch 'main' of stgit.dcs.gla.ac.uk:team-project-h/2023/sh21/sh21-main
+- issue/fully-integrated-show-result
+- Merge branch 'feature/refine-coords-error-handling' into 'main'
+- feat: refine coords error handling
+- Merge branch 'bug/6-2-2024' into 'main'
+- fix coordPattern (allow more flexibility eg. allow 003, 03, 3)
+- Merge branch 'bug/6-2-2024' into 'main'
+- fix coordPattern regex
+- Merge branch 'bug/6-2-2024' into 'main'
+- implement issue #42 - showing "Results" page when clicking on Area Card
+- get area from history panel to show on result panel
+- Merge branch 'bug/6-2-2024' into 'main'
+- Merge branch 'main' into bug/6-2-2024
+- fix input is on focus after Enter key is pressed
+- Merge branch 'feature/add-map-loading-spinner' into 'main'
+- refactor: remove debug output
+- Merge branch 'feature/add-map-loading-spinner' into 'main'
+- feat: add map loading spinner
+- Merge branch 'bug/6-2-2024' into 'main'
+- fix issue #43
+- Merge branch 'bug/5-2-2024' into 'main'
+- fix issue #45
+- fix #39 issue
+- fix #47 search bar backdrop not working
+- Merge branch 'feature/refine-unsupported-browser-ui' into 'main'
+- feat: refine unsupported browser ui
+- Merge branch 'feature/improve-searchbar-performance' into 'main'
+- feat: improve search bar performance
+- refactor: remove spaces ;-;
+- Merge branch 'issue/fix-build-error' into 'main'
+- fix: fix build error
+- Merge branch 'feature/update-packages' into 'main'
+- feat: update packages
+- Merge branch 'feature/search-uk-cities-and-towns' into 'main'
+- feat: implemented search for city, town, village, hamlet, and country
+- feat: initial impementation
+- Merge branch '50-make-polygon-draw-from-corner-rather-than-centering-out' into 'main'
+- fix: make polygon draw from corner
+- Merge branch 'feature/add-optional-config-for-static-export' into 'main'
+- feat: add optional config for static export
+- feat: update image size
+- feat: initial README
+- Merge branch 'issue/single-quote-error-sql-query' into 'main'
+- fix: fix a bug where single quote will break SQL query
+- Merge branch 'issue/search-term-not-saved-between-renders' into 'main'
+- fix: fix search term not saved between renders
+- Merge branch 'issue/fix-wrong-pagination-animation' into 'main'
+- fix: fix wrong animation
+- refactor: rename app
+- Merge branch 'refactor/refactor-classnames' into 'main'
+- refactor: refactor classnames
+- Merge branch 'feature/animated-toggle-side-panel' into 'main'
+- refactor: refine animation more
+- Merge branch 'feature/animated-toggle-side-panel' into 'main'
+- feat: add toggle side panel animation
+- Merge branch 'main' into feature/animated-toggle-side-panel
+- Merge branch 'issue/add-map-extent' into 'main'
+- feat: add map extent
+- Merge branch 'refactor/card' into 'main'
+- refactor: refine card list UI
+- Merge branch 'issue/prevent-access-outside-packaged-app' into 'main'
+- feat: prevent access outside packaged app
+- Merge branch 'refactor/card' into 'main'
+- refactor: refine icon
+- Merge branch 'refactor/card' into 'main'
+- refactor: refine card GUI
+- fix: fix animation playing when sort
+- refactor: refine card text alignment
+- Merge branch 'issue/fix-packaged-app-can't-find-backend' into 'main'
+- refactor: reduce packaged app size further
+- fix: fix packaged app can't find module
+- refactor: update packages
+- Merge branch 'main' into feature/animated-toggle-side-panel
+- Merge branch 'refactor/refactor-file-upload-modal' into 'main'
+- refactor: refine GUI
+- Merge branch 'issue/fix-alignment' into 'main'
+- fix: fix alignment
+- Merge branch 'feature/re-render-when-screen-height-changes' into 'main'
+- feat: re-render when screen height changes
+- Merge branch 'feature/refine-file-upload-modal-gui' into 'main'
+- refactor: refine file upload modal GUI
+- fix: fix inaccurate msg
+- Merge branch 'issue/wrap-searchbar-scrolling' into 'main'
+- feat: wrap searchbar scrolling
+- feat: unfinished feature
+- Merge branch 'feature/folder-selection-error-handling' into 'main'
+- fix: fix bg color flickers
+- feat: add error handling when uploading file or empty folder
+- Merge branch 'refactor/remove-unused-import' into 'main'
+- refactor: remove unused import
+- Merge branch 'refactor/update-packages' into 'main'
+- refactor: update packages
+- Merge branch 'issue/page-resets-after-toggling-side-panel' into 'main'
+- fix: fix page resets after toggling side panel
+- Merge branch 'feature/integrate_with_py' into 'main'
+- integrate with FileSearch.py
+- refactor: minify code
+- feat: implement searching area history
+- refactor: make modal dismissible
+- refactor: change dialog to toast
+- refactor: improve pagination btn animation
+- fix: make alphabet sorting case-insensitive
+- refactor: update build config
+- feat: add toaster
+- refactor: improve performance
+- fix: fix animation from playing after sorting
+- refactor: refine animation
+- refactor: add pagination animation
+- refactor: remove fade animation
+- fix: fix a bug where pagination won't work
+- fix: fix a bug where delete icon occasionally won't work
+- refactor: update placeholder
+- refactor: add padding
+- refactor: add error handling
+- feat: add country code
+- refactor: increase max height
+- refactor: adjust scale line pos
+- feat: implement searching by country name/code
+- refactor: update packages
+- feat: improve map performance and UX
+- feat: add tooltip to copy button
+- refactor: improve electronjs security
+- fix: fix <p> appearing as child of <p> error
+- refactor: adjust leading and tooltip offset
+- refactor: make name in dialogs more prominent
+- fix: fix long text breaks css
+- refactor: refine doc
+- refactor: update forge config for better-sqlite3 dep
+- fix: fix input modal not appearing in result screen
+- feat: finished implementing local sqlite api, remove all async, await, spinner
+- feat: initial local db CRUD op without api/route
+- refactor: decrease decimal point to 8
+- fix: fix incorrect polygon color style
+- refactor: refactor code
+- refactor: fix 9 decimal points, allow text select for area val
+- fix: fix missing adjusted padding in draw by coord
+- feat: update electron forge config
+- refactor: remove unused assets
+- refactor: refine btn placement
+- refactor: refine sort icon
+- Merge branch 'ui-component/file_tree_deselect_bug'
+- fix bug in filetree where deselecting 1 file result in deselecting all folders/files
+- feat: auto select text in dialog
+- fix: fix incorrect OS detection
+- fix: fix file tree not creating correctly on UNIX
+- refactor: refactor code
+- refactor: prevent refetch if new name is same as prev
+- refactor: change icon
+- fix areacard name doesnt get updated after rename
+- feat: autofocus input dialog
+- feat: add enter key event listener to input dialog
+- refactor: make buttons bigger
+- refactor: add search icon
+- refactor: update icons
+- fix: to be fixed
+- refactor: update packages
+- refactor: adjust screenshot offset
+- refactor: make esc kbd smaller
+- feat: add icon in dialog modal
+- refactor: minify css
+- refactor: centralized msg
+- refactor: make empty input check on btn instead
+- refactor: update msg
+- feat: add save image in right-click context menu
+- refactor: refactor code
+- refactor: refine UI
+- refactor: refactor code and refine GUI
+- refactor: fix grammar
+- refactor: update color
+- feat: add right-click context menu
+- refactor: update msg
+- fix: fix screenshot img not fit in card
+- feat: initial implementation for rename and dialog
+- feat: use NextUI textbox
+- feat: add input error color
+- refactor: adjust btn color
+- refactor: refactor code
+- refactor: add disabled btn tertiary text color
+- refactor: adjust offset
+- refactor: remove unnecessary config
+- feat: initial implementation for screenshot
+- feat: add ts doc
+- refactor: add fade to all pages
+- refactor: sort classname
+- refactor: adjust overlay position
+- fix: fix hover polygon coordinates not centered
+- fix: fix card timestamp change when toggle sidepanel
+- refactor: make area card unselectable in result page
+- fix: fix incorrect msg
+- refactor: make draw by mouse height smaller
+- refactor: improve GUI responsiveness
+- fix: fix a bug where dropdown won't considered as open after open
+- feat: add area name in delete confirm diag
+- refactor: centralized dialog message
+- fix: fix missing \n
+- refactor: remove entrance btn animation
+- refactor: make dialog wider, add preline support for \n
+- refactor: improve logic
+- refactor: update name
+- fix: prevent tooltip from showing when dropdown is opened
+- feat: add tooltip to sort button
+- fix: fix comparison
+- refactor: add icons to sort dropdown
+- fix: change from MM/DD/YYYY to DD/MM/YYYY
+- feat: implement sorting
+- refactor: remove unused imports
+- refactor: refactor into component
+- refactor: improve performance
+- feat: add max page
+- fix: fix a bug where page won't update when there's no card left in that page
+- feat: implement pagination
+- refactor: redesign sort popup
+- refactor: disallow empty selection of coord fmt
+- feat: initial implementation for changing page
+- feat: update db to contain image blob field
+- feat: add dialog modal for error msg
+- refactor: refine UI
+- refactor: adjust margin a bit
+- fix: fix draw by coord UI alignment
+- refactor: update map style
+- fix: remove polygon after saving
+- refactor: refactor code
+- refactor: refactor code, change to 9 decimal, add spinner to btn, add disabled btn theme
+- Merge branch 'ui-component/post_api_resultpanel' into 'main'
+- correct the coord of each corner on card area
+- successfully call post api to create new area
+- pass coords from draw side panel to result side panel
+- add async await to handleDelete()
+- feat: add loading and skeleton
+- refactor: refactor code
+- feat: implement delete area
+- Merge branch 'CRUD-Area-History'
+- feat: implement READ from db
+- Delete .gitlab-ci.yml
+- Remove .gitlab-ci.yml file
+- Merge branch '35-lock-rotation-when-drawing-polygon' into 'main'
+- Merge branch 'database'
+- feat: implement db and CRUD operations
+- fix: lock polygon rotation
+- refactor: update fileuploadmodal animation
+- Merge branch 'main' of https://stgit.dcs.gla.ac.uk/team-project-h/2023/sh21/sh21-main i# the commit.
+- added universal path for the SampleMapTypes direcotry
+- Added comments and changed output
+- added FileSearch function returing all the files from the example directory
+- Merge branch 'main' of stgit.dcs.gla.ac.uk:team-project-h/2023/sh21/sh21-main
+- Update CHANGELOG
+- Update .gitlab-ci.yml file
+- Update .gitlab-ci.yml file
+- Update .gitlab-ci.yml file
+- refactor: refactor code
+- fix: fix large bundles
+- refactor: update packages
+- refactor: adjust padding when disable checkbox
+- Merge branch 'ui-component/convert_coord_fmt' into 'main'
+- fix - can click continue without having drawn polygon
+- Merge branch 'ui-component/convert_coord_fmt' into 'main'
+- do not allow to draw 2 polygons, add button to draw/remove polygon drawn from inputted coords, add hover info for polygon drawn from inputted coords
+- add coord fmt conversion from dms and dmm to dd
+- add option to show/hide filetree checkbox
+- fix: fix package name
+- fix: fix missing packager config
+- feat: add missing dev dependency for deb cli
+- Update forge.config.js
+- Merge branch 'main' of stgit.dcs.gla.ac.uk:team-project-h/2023/sh21/sh21-main
+- feat: GitLab pipeline trial
+- Update .gitlab-ci.yml file
+- Update .gitlab-ci.yml file
+- Update .gitlab-ci.yml file
+- Update .gitlab-ci.yml file
+- Update .gitlab-ci.yml file
+- Update .gitlab-ci.yml file
+- Update .gitlab-ci.yml file
+- Update .gitlab-ci.yml file
+- Update .gitlab-ci.yml file
+- Update .gitlab-ci.yml file
+- Update .gitlab-ci.yml file
+- feat: create pipeline to auto build electron.js app
+- refactor: refactor import
+- refactor: change from dash to solid line
+- fix: fix a bug where map event listener isn't removed
+- Merge branch 'ui-component/draw_by_coords' into 'main'
+- merge from main
+- fix filetree check/uncheck/indetermine selection status
+- fix: fix build error
+- refactor: refactor code
+- draw bounding box from users input
+- Merge branch 'electronjs'
+- fix: fix white screen on deployment app
+- feat: Why electronjs app white screen after build?
+- Update ResultSidePanel.tsx
+- fix: fix file showing as directory
+- feat: add drag hover bg color
+- fix: fix missing localstorage key on init
+- feat: implemented file and folder upload system
+- feat: implement import preview
+- Merge branch 'main' of https://stgit.dcs.gla.ac.uk/team-project-h/2023/sh21/sh21-main
+- added samle map types directory
+- feat: initial file upload implementation
+- refactor: update yarn version
+- Merge branch 'ui-component/filetree_selection' into 'main'
+- disable select all and deselect all buttons once they are selected
+- feat: initial electronjs implementation
+- Merge branch 'ui-component/filetree_selection' into 'main'
+- Merge branch 'main' into ui-component/filetree_selection
+- configure select all and deselect all checkboxes for the filetree
+- refactor: restructure file
+- fix: fix missing word
+- feat: initial hello world nodejs
+- refactor: update target es version
+- refactor: update packages
+- refactor: move py to backend folder
+- Added python file for finding boundaries and outputing files in defined area
+- fix: fix incorrect type
+- refactor: update packages
+- fix: fix confirmation dialog position shifted
+- Merge branch 'ui-component/manage-layers-side-panel' into ui-component/draw-side-panel
+- refactor: add ref
+- refactor: remove draw90 interaction
+- refactor: fix description
+- feat: initial implementation of drag n drop
+- fix: fix filetree responsive layout
+- feat: user can now hold shift to lock rotation to 0 deg
+- refactor: add tooltip and refine layout
+- feat: implement copy to clipboard
+- refactor: factor out FileTree as a component
+- refactor: refine layout
+- feat: add dropdown for coordinate formats
+- feat: add tooltip
+- Merge branch 'ui-component/draw-side-panel' into ui-component/card
+- feat: refine input style
+- refactor: add and refine comments
+- refactor: add comments and make more readable
+- fix: fix area text not center
+- refactor: change easing animation
+- refactor: change clear polygon icon
+- fix: fix overlays not cleaned up
+- fix: fix incorrect drawingState if user press Esc while hiding panel
+- fix: fix drawingState not updating is user hides side panel
+- fix: fix drawingState not updating if user reloads
+- fix: draw state now saved when toggle sidepanel
+- fix: fix a bug where base layer can get removed
+- feat: drawing polygon with hover info
+- refactor: comment-out unused code
+- fix: remove draw interaction after finish drawing
+- Merge branch 'ui-component/map' into ui-component/draw-side-panel
+- feat: implement getting coordinates from drawn polygon
+- fix: fix map context instance is undefined
+- refactor: adjust layout
+- refactor: change from area to date and time
+- feat: add map context
+- Update backlog.md
+- feat: add backlog template
+- feat: add issue template
+- Update CHANGELOG
+- Create CHANGELOG
+- Merge branch 'ui-component/result_side_panel'
+- fix: fix side panel not appearing
+- Merge branch 'ui-components' into 'main'
+- Merge branch 'ui-component/manage-layers-side-panel' into ui-components
+- Merge branch 'ui-component/result_side_panel' into ui-components
+- fix filetree margin
+- add rectangle
+- add Select/Deselect All checkbox in Result Side Panel
+- add save and download buttons to Result Sidepanel
+- add checkbox to filetree and fix active css selector in filetree
+- fix styling of Searchbar
+- add mockup countries to searchbar
+- add basic Searchbar
+- add Searchbar component
+- refactor: remove unnecessary comments
+- feat: add import preview side panel
+- feat: add search bar
+- remove comment
+- refactor: change wording
+- fix: fix button not appearing correctly
+- fix: fix sort radio button not working properly
+- refactor: change to default modal implementation by DaisyUI
+- feat: prompt user if there's unsaved changes
+- feat: make file dialog appear
+- feat: implement add layers modal popup
+- feat: add manage layers side panel
+- refactor: remove animation for lesser clutter
+- adjust filetree height
+- add function to recursively generate a file tree
+- fix styling of Searchbar
+- add mockup countries to searchbar
+- add basic Searchbar
+- add Searchbar component
+- feat: implement file upload modal
+- refactor: remove comments
+- feat: implement sort popup dialog
+- refactor: adjust initial zoom duration
+- Update yarn.lock
+- refactor: sort import
+- refactor: allow btn to take className arg for more customization
+- refactor: update packages
+- Merge branch 'ui-component/draw-side-panel' into ui-components
+- fix: fix UI
+- fixed DrawSidePanel layout
+- fix: fix header text not centered
+- center DrawByMouse.tsx and apply other margin/spacing in DrawSidePanel
+- added custom useSidePanel() and connect history and draw panel
+- fixed merge conflict on index.tsx
+- Merge branch 'ui-components' into ui-component/draw-side-panel
+- add draw side panel
+- refactor: refine confirmation modal
+- feat: update confirmation dialog
+- feat: improve design, add search btn, zoom in to UK by default
+- fix: fix button inside button warning
+- refactor: add focus outline
+- try commiting for draw side panel
+- feat: add more implementation
+- feat: add more implementation
+- refactor: refine map controls styling
+- feat: initial main UI implementation
+- refactor: update layout
+- refactor: change from " to '
+- feat: implement map
+- feat: finish ConfirmationModal implementation
+- refactor: update btn filled color
+- refactor: update btn outline classname
+- Update yarn.lock
+- refactor: sort classname
+- feat: add prettier plugin for tailwindcss
+- refactor: change btn classname
+- feat: add react-icons pkg
+- refactor: change double to single quote
+- refactor: change btn component to classname
+- refactor: change to single quote
+- fix: fix missing white bg on outlined btn
+- fix: fix incorrect button theme
+- fix: fix default color not working
+- feat: change to Roboto font
+- feat: implemented button component
+- feat: create component files
+- fix: fix color not defined error
+- feat: define color palette, make daisyUI use light theme
+- feat: add DaisyUI plugin
+- feat: update dependencies
+- fix: remove incorrect classname
+- feat: setup Next.js app
+- Merge branch 'license' into 'main'
+- feat: add license
+- Merge branch '1-add-a-gitignore-file-to-the-main-repository' into 'main'
+- add gitignore
+- Initial commit

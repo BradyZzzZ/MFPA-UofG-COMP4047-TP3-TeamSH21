@@ -1,0 +1,4 @@
+https://github.com/cgohlke/geospatial-wheels/releases/download/v2024.2.18/GDAL-3.8.4-cp312-cp312-win_amd64.whl
+geopandas
+pyproj
+rasterio
