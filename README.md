@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <p align="left">
-  <img src="https://i.imgur.com/8tTQtdY.png" alt="SH21 Team Logo" width='900' height='auto' />
+  <img src="https://i.imgur.com/8tTQtdY.png" alt="SH21 Team Logo" width='1200' height='auto' />
 </p>
 
 <div align="center">
